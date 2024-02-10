@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a third-year Ph.D. student in the Computer Science Department at [The University of Hong Kong](https://hku.hk/), supervised by Prof. [Jia Pan](https://sites.google.com/site/panjia/) and Prof. [Wenping Wang](https://www.cs.hku.hk/people/academic-staff/wenping). Before that, I received the B.Eng. degree in software engineering and M.Eng. degree in computer technology, both from the [Sun Yat-sen University](https://www.sysu.edu.cn/), advised by Prof. [Guanbin Li](http://guanbinli.com/). Currently, my research interests include Robotics, Vision-and-Language, with particular interests in task planning, vision-and-language navigation, and  applications of LLMs.
+I am a third-year Ph.D. student in the Computer Science Department at [The University of Hong Kong](https://hku.hk/), supervised by Prof. [Jia Pan](https://sites.google.com/site/panjia/) and Prof. [Wenping Wang](https://www.cs.hku.hk/people/academic-staff/wenping). Before that, I received both the B.Eng. degree and the M.Eng. degree from [Sun Yat-sen University](https://www.sysu.edu.cn/), advised by Prof. [Guanbin Li](http://guanbinli.com/). Currently, my research interests include Robotics, Vision-and-Language, with particular interests in task planning, vision-and-language navigation, and applications of LLMs.
 
 <!-- ## Research Interests
 
