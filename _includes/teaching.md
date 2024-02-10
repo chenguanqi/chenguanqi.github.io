@@ -2,12 +2,12 @@
 
 <ul>
   <li>
-    Teaching Assistant, Machine Learing at [The University of Hong Kong](https://hku.hk/), 2022-2023.
+    Teaching Assistant, Machine Learing at <a href="https://hku.hk/">The University of Hong Kong</a>, 2022-2023.
   </li>
   <li>
-    Teaching Assistant, Computer Organization at [The University of Hong Kong](https://hku.hk/), 2021.
+    Teaching Assistant, Computer Organization at <a href="https://hku.hk/">The University of Hong Kong</a>, 2021.
   </li>
   <li>
-    Teaching Assistant, Computer Vision at [Sun Yat-sen University](https://www.sysu.edu.cn/), 2020.
+    Teaching Assistant, Computer Vision at <a href="https://www.sysu.edu.cn/">Sun Yat-sen University</a>, 2020.
   </li>
 </ul>
