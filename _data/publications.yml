@@ -34,7 +34,7 @@ main:
   - title: Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering
     authors: Haifan Gong*, <strong>Guanqi Chen*</strong>, Sishuo Liu, Yizhou Yu, Guanbin Li <br> (* Equal contribution)
     conference_short: ICMR
-    coference: ACM International Conference on Multimedia Retrieval, 2021.
+    conference: ACM International Conference on Multimedia Retrieval <strong>(ICMR)</strong>, 2021.
     pdf: https://dl.acm.org/doi/10.1145/3460426.3463584
     code: https://github.com/haifangong/CMSA-MTPT-4-MedicalVQA
     image: ./assets/img/CMSA_MTPT.jpg
