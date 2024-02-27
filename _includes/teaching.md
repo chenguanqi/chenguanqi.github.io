@@ -2,7 +2,7 @@
 
 <ul>
   <li>
-    Teaching Assistant, Machine Learing at <a href="https://hku.hk/">The University of Hong Kong</a>, 2022-2023.
+    Teaching Assistant, Machine Learning at <a href="https://hku.hk/">The University of Hong Kong</a>, 2022-2023.
   </li>
   <li>
     Teaching Assistant, Computer Organization at <a href="https://hku.hk/">The University of Hong Kong</a>, 2021.
