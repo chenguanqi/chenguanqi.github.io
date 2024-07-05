@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Language-Augmented Symbolic Planner for Open-World Task Planning">
+  <meta name="keywords" content="keywords">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Language-Augmented Symbolic Planner for Open-World Task Planning</title>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="css/bulma-slider.min.css">
+  <link rel="stylesheet" href="css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="js/fontawesome.all.min.js"></script>
+  <script src="js/bulma-carousel.min.js"></script>
+  <script src="js/bulma-slider.min.js"></script>
+  <script src="js/index.js"></script>
+</head>
+<body>
+
+<style>
+  .image-container {
+    margin-bottom: 40px; /* set margin */
+  }
+</style>
+
+  <section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Language-Augmented Symbolic Planner for Open-World Task Planning</h1>
+          <h1 class="title is-3">RSS 2024</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://chenguanqi.github.io/">Guanqi Chen</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=JAzFhXQAAAAJ&hl=en">Lei Yang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://openreview.net/profile?id=~Ruixing_Jia1">Ruixing Jia</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://zhe.hu/">Zhe Hu</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://jinxer000.github.io/">Yizhou Chen</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.wzhanglab.site/">Wei Zhang</a><sup>4</sup>,</span>
+            <span class="author-block">
+              <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html">Wenping Wang</a><sup>5</sup>,</span> 
+            <span class="author-block">
+              <a href="https://www.cs.hku.hk/people/academic-staff/jpan">Jia Pan</a><sup>1,3</sup></span>
+
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>The University of Hong Kong,</span>
+            <span class="author-block"><sup>2</sup>University of Electronic Science and Technology of China,</span>
+            <span class="author-block"><sup>3</sup>Centre for Transformative Garment Production,</span>
+            <span class="author-block"><sup>4</sup>Southern University of Science and Technology,</span>
+            <span class="author-block"><sup>5</sup>Texas A&M University</span>
+
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://chenguanqi.github.io/LASP/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://chenguanqi.github.io/LASP/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (Coming soon)</span>
+                  </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <video width="640" height="360" controls>
+    <source src="https://connecthkuhk-my.sharepoint.com/:v:/g/personal/chguanqi_connect_hku_hk/EbCqilCh0idEtHrTkAIpjeEBFpOQmFFtRncW-DlDXriGNw?e=fuOj2P" type="video/mp4">
+</video>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+  <!-- <div class="container"> -->
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <br />
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Enabling robotic agents to perform complex longhorizon tasks has been a long-standing goal in robotics and artificial intelligence (AI). 
+            Despite the potential shown by large language models (LLMs), their planning capabilities remain limited to short-horizon tasks and they are unable to replace the symbolic planning approach. 
+            Symbolic planners, on the other hand, may encounter execution errors due to their common assumption of complete domain knowledge which is hard to manually prepare for an open-world setting. 
+            In this paper, we introduce a Language-Augmented Symbolic Planner (LASP) that integrates pre-trained LLMs to enable conventional symbolic planners to operate in an open-world environment where only incomplete knowledge of action preconditions, objects, and properties is initially available. 
+            In case of execution errors, LASP can utilize the LLM to diagnose the cause of the error based on the observation and interact with the environment to incrementally build up its knowledge base necessary for accomplishing the given tasks. 
+            Experiments demonstrate that LASP is proficient in solving planning problems in the open-world setting, performing well even in situations where there are multiple gaps in the knowledge.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- Pipeline. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <br />
+        <h2 class="title is-3">Methodology</h2>
+        <img src="images/framework.jpg" alt="pipeline" style="width:100%; ">
+        <div class="content has-text-justified">
+          <p>
+              An overview of our proposed LASP, a task planning framework in the open world where the planning knowledge is incomplete. The symbolic planner is responsible for finding a plan to accomplish the given task, and subsequently, the robot executes this plan. Given an initial, incorrect plan, the robot will encounter some errors during action execution. Our proposed method LASP will invoke the LLM to recursively refine the task planning problem by supplementing action knowledge to the planner. Moreover, if the planner is unable to find a plan afterward, the LLM can augment the planner’s task-specific knowledge with necessary objects to assist the planner in finding an error-free solution.
+          </p>
+        </div>
+      </div>
+    </div>
+
+      <!-- Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <br />
+        <h2 class="title is-3">Results</h2>
+         <div class="image-container">
+          <img src="images/table1.jpg" alt="table1" style="width:50%; ">
+          <p>
+            Comparison with language-driven planning methods.
+          </p>
+         </div>
+         <div class="image-container">
+          <img src="images/table2.jpg" alt="table2" style="width:50%; ">
+          <p>
+            Comparison with COWP (combination of LLM and symbolic planner).
+          </p>
+         </div >
+         
+      </div>
+    </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+<div class="container is-max-desktop content">
+<h2 class="title">BibTeX</h2>
+<pre><code>
+@inproceedings{chen2024lasp,
+  title={Language-Augmented Symbolic Planner for Open-World Task Planning},
+  author={Chen, Guanqi and Yang, Lei and Jia, Ruixing and Hu, Zhe and Chen, Yizhou and Zhang, Wei and Wang, Wenping and Pan, Jia},
+  booktitle = "Robotics: Science and Systems",
+  year={2024}
+}
+</code></pre>
+</div>
+</section>
+
+</body>
+</html>
