@@ -6,7 +6,7 @@ main:
     pdf: https://arxiv.org/pdf/
     page: https://chenguanqi.github.io/LASP/
     image: ./assets/img/LASP.jpg
-    notes: Oral Presentation
+    # notes: Oral Presentation
 
   - title: Evaluating Explanation Methods for Vision-and-Language Navigation
     authors: <strong>Guanqi Chen</strong>, Lei Yang, Guanhua Chen, Jia Pan
