@@ -1,4 +1,30 @@
 main:
+  - title: Semantically Structured Mixture-of-Experts for Compositional Robotic Manipulation
+    authors: Chengyu Deng*, <strong>Guanqi Chen*</strong>, Yizhou Chen, Zejia Liu, Zhiwen Ruan, Guanhua Chen, Jia Pan
+    conference_short: RSS
+    conference: "Robotics: Science and Systems <strong>(RSS)</strong>, 2026."
+    pdf: https://arxiv.org/pdf/2605.23477.pdf
+    page: https://deng-cy20.github.io/SMoDP/
+    image: ./assets/img/SMoDP.png
+    # notes: Oral Presentation
+  
+  - title: "Beyond Pixels: Learning Invariant Rewards for Real-World Robotics From a Few Demonstrations"
+    authors: Tengye Xu, Yangting Sun, Ziju Shen, <strong>Guanqi Chen</strong>, Zhen Fu, Yizhou Chen, Hua Chen, Jia Pan
+    conference_short: Preprint
+    conference: "Preprint"
+    pdf: https://arxiv.org/pdf/2605.22123.pdf
+    image: ./assets/img/FLORA.png
+  
+  - title: A Joint Learning of Force Feedback of Robotic Manipulation and Textual Cues for Granular Materials Classification
+    authors: Zeqing Zhang, <strong>Guanqi Chen</strong>, Peng Zhou, Wentao Chen, Ruixing Jia, Guanhua Chen, Liangjun Zhang, Jia Pan
+    conference_short: RA-L
+    conference: IEEE Robotics and Automation Letters <strong>(RA-L)</strong>, 2025.
+    pdf: https://ieeexplore.ieee.org/abstract/document/11018378
+    page: https://sites.google.com/view/gmwork2/ftlearning
+    code: https://github.com/Benjizhang/GmClass
+    image: ./assets/img/FT4GMC.png
+    notes: ESI Highly Cited Paper
+
   - title: Language-Augmented Symbolic Planner for Open-World Task Planning
     authors: <strong>Guanqi Chen</strong>, Lei Yang, Ruixing Jia, Zhe Hu, Yizhou Chen, Wei Zhang, Wenping Wang, Jia Pan
     conference_short: RSS
